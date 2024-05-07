@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: #D3D3D3;
+}
+
+.nav {
+    background-color: transparent;
+    position: fixed;
+    top: 1px;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    z-index: 5;
+}
+
+.nav a {
+    border-radius: 20px; 
+    margin: 0 auto;
+    text-decoration: none;    
+}
+
+.nav li {
+    padding: 12px 15px;
+    border: 2px solid white;
+    border-radius: 20px; 
+    margin: 0 auto;  
+}
+
+.nav a li:hover {
+    background-color: white;
+    color: black;
+}
+
+/* now onto text headings */
+
+.text {
+    position: relative;
+    top: 75px;
+    border: 1px solid #D3D3D3;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    font-size: 25px;
+    text-align: auto;
+}
+
+.text ul {
+    line-height: 1.5rem;
+    list-style: none;
+}
+
+
+/* Time for font styles*/
+
+.font-style {
+    position: relative;
+    top: 100px;
+    border: 1px solid #D3D3D3;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.font-style ul {
+    list-style: none;
+}
+
+.Architects-daughter {
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Jersey-10 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: 20px;
+}
+
+.Briem-hand {
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Sedan-SC {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Button style */
+
+.buttons {
+    position: relative;
+    top: 125px;
+    border: 1px solid #D3D3D3;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.buttons .normal-button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.buttons .flat-button {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.flat-button button {
+    box-shadow: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.flat-button button:active {
+    border: 1px solid white;
+    background-color: grey;
+}
+
+
+.buttons .skeuomorphic-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skeuomorphic-button button {
+    background-color: green;
+    color: white;
+    box-shadow: none;
+}
+
+.skeuomorphic-button button:hover {
+    background-color: lightgreen;
+    color: grey;
+}
+
+.skeuomorphic-button button:active {
+    background-color: darkgreen;
+}
+

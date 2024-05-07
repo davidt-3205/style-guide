@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style-Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Briem+Hand&family=Jacquard+24+Charted&family=Jersey+10&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Lets do three main sections of style. text , font style, buttons (hopefully this will give me some practice playing around with buttons)-->
+    <nav>
+        <ul class="nav">
+            <!--Might need to play around with the a inside of li or other way around. I think this will work.-->
+            <a href="#text"><li>Text Styles</li></a>
+            <a href="#font-style"><li>Font styles</li></a>
+            <a href="#buttons"><li>Button Styles</li></a>
+        </ul>
+    </nav>
+    <div class="text", id="text">
+        <h1 class="intro">Text Headings</h1>
+        <!--H1 through 6 plus P-->
+        <h1 class="text-heading">H1 Heading</h1>
+        <P class="description">
+            This is what a H1 heading looks like
+
+            <ul class="h1-heading"> Default Values
+                <li>display: block;</li>
+                <li>font-size: 2em;</li>
+                <li>margin-top: 0.67em;</li>
+                <li>margin-bottom: 0.67em;</li>
+                <li>margin-left: 0;</li>
+                <li>margin-right: 0;</li>
+                <li>font-weight: bold;</li>
+            </ul>
+        </P>
+        <h2 class="text-heading">H2 Heading</h2>
+        <p class="description">
+            This is what a H2 heading looks like
+
+            <ul class="h2-heading"> Default Values
+                <li>display: block;</li>
+                <li>font-size: 1.5em;</li>
+                <li>margin-top: 0.83em;</li>
+                <li>margin-bottom: 0.83em;</li>
+                <li>margin-left: 0;</li>
+                <li>margin-right: 0;</li>
+                <li>font-weight: bold;</li>
+            </ul> 
+        </p>
+        <h3 class="text-heading">H3 Heading</h3>
+        <p class="description">
+            This is what a H3 heading looks like
+
+            <ul class="h3-heading"> Default Values
+                <li>display: block;</li>
+                <li>font-size: 1.17em;</li>
+                <li>margin-top: 1em;</li>
+                <li>margin-bottom: 1em;</li>
+                <li>margin-left: 0;</li>
+                <li>margin-right: 0;</li>
+                <li>font-weight: bold;</li>
+            </ul>
+        </p>
+        <h4 class="text-heading">H4 Heading</h4>
+        <p class="description">
+            This is what a H4 heading looks like
+
+            <ul class="h4-heading"> Default Values
+                <li>display: block;</li>
+                <li>font-size: 1em;</li>
+                <li>margin-top: 1.33em;</li>
+                <li>margin-bottom: 1.33em;</li>
+                <li>margin-left: 0;</li>
+                <li>margin-right: 0;</li>
+                <li>font-weight: bold;</li>
+            </ul>
+        </p>
+        <h5 class="text-heading">H5 Heading</h5>
+        <p class="description">
+            This is what a H5 heading looks like
+
+            <ul class="h5-heading"> Default Values
+                <li>display: block;</li>
+                <li>font-size: .83em;</li>
+                <li>margin-top: 1.67em;</li>
+                <li>margin-bottom: 1.67em;</li>
+                <li>margin-left: 0;</li>
+                <li>margin-right: 0;</li>
+                <li>font-weight: bold;</li>
+            </ul>
+        </p>
+        <h6 class="text-heading">H6 Heading</h6>
+        <p class="description">
+            This is what a H6 heading looks like
+
+            <ul class="h6-heading"> Default Values
+                <li>display: block;</li>
+                <li>font-size: .67em;</li>
+                <li>margin-top: 2.33em;</li>
+                <li>margin-bottom: 2.33em;</li>
+                <li>margin-left: 0;</li>
+                <li>margin-right: 0;</li>
+                <li>font-weight: bold;</li>
+            </ul>
+        </p>
+    </div>
+    <div class="font-style" id="font-style">
+        <!--5 different imported font families to demonstrate here. Each one should say "This is" + font famility name. They should also list there current values-->
+        <!--Remember to go back and fill in the values for the fonts-->
+        <h1>Font Styles</h1>
+        <div class="Architects-daughter">
+            <h3>This is Architects Daughter</h3>
+            <ul class="font-values">
+                <li>font-family: "Architects Daughter", cursive; </li>
+                <li>font-style: normal;</li>
+                <li>font-weight: 400; </li>
+            </ul>
+        </div>
+        <div class="Jersey-10">
+            <h3>This is Jersey 10</h3>
+            <ul class="font-values">
+                <li>font-family: "Jersey 10", sans-serif;</li>
+                <li>font-size: 20px;</li>
+                <li>font-weight: 400;</li>
+            </ul>
+        </div>
+        <div class="Briem-hand">
+            <h3>This is Briem hand</h3>
+            <ul class="font-values">
+                <li>font-family: "Briem Hand", cursive;</li>
+                <li>font-size: normal;</li>
+                <li>font-weight: 400;</li>
+            </ul>
+        </div>
+        <div class="Sedan-SC">
+            <h3>This is Sedan SC</h3>
+            <ul class="font-values">
+                <li>font-family: "Sedan SC", serif;</li>
+                <li>font-size: normal</li>
+                <li>font-weight: 400</li>
+            </ul>
+        </div>
+    </div>
+    <div class="buttons" id="buttons">
+        <h1>Button Styles</h1>
+        <!--Only need to do three for the buttons, normal, flat, Skeuomorphic-->
+        <div class="normal-button">
+            <button>Normal Button</button>
+        </div>
+        <div class="flat-button">
+            <button>Flat Button</button>
+        </div>
+        <div class="skeuomorphic-button">
+            <button>Skeuomorphic Button</button>
+        </div>
+    </div>
+</body>
+</html>
